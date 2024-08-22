@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/strategywerks-assignment-frontend/static/css/main.ec7e7acf.css",
-    "main.js": "/strategywerks-assignment-frontend/static/js/main.660de5f0.js",
+    "main.js": "/strategywerks-assignment-frontend/static/js/main.1cb63834.js",
     "static/media/poster10.jpg": "/strategywerks-assignment-frontend/static/media/poster10.ee2f238607481c5d1d25.jpg",
     "static/media/poster8.jpg": "/strategywerks-assignment-frontend/static/media/poster8.8869c30b4927931fe753.jpg",
     "static/media/poster4.jpg": "/strategywerks-assignment-frontend/static/media/poster4.640a285db197451cfb4b.jpg",
@@ -14,10 +14,10 @@
     "static/media/poster9.jpg": "/strategywerks-assignment-frontend/static/media/poster9.1ca4b7ee5467fac5d04b.jpg",
     "index.html": "/strategywerks-assignment-frontend/index.html",
     "main.ec7e7acf.css.map": "/strategywerks-assignment-frontend/static/css/main.ec7e7acf.css.map",
-    "main.660de5f0.js.map": "/strategywerks-assignment-frontend/static/js/main.660de5f0.js.map"
+    "main.1cb63834.js.map": "/strategywerks-assignment-frontend/static/js/main.1cb63834.js.map"
   },
   "entrypoints": [
     "static/css/main.ec7e7acf.css",
-    "static/js/main.660de5f0.js"
+    "static/js/main.1cb63834.js"
   ]
 }

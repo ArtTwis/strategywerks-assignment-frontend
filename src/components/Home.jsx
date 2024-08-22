@@ -14,12 +14,23 @@ const Home = () => {
   const pageRef = useRef(page);
 
   const getCardData = async () => {
-    const res = await fetch(
-      `${API_URL}?_limit=${api_data_limit}&_page=${page}`
-    );
-    const { data } = await res.json();
-    dispatch(appActions.addMovies(data));
-    dispatch(appActions.toggleLoading(false));
+    try {
+      const res = await fetch(
+        `${API_URL}?_limit=${api_data_limit}&_page=${page}`
+      );
+      const { data } = await res.json();
+      dispatch(appActions.addMovies(data));
+    } catch (error) {
+      toast.error("Error while fetching data!", {
+        position: "top-right",
+        autoClose: 2000,
+        closeOnClick: true,
+        draggablePercent: 50,
+        theme: "dark",
+      });
+    } finally {
+      dispatch(appActions.toggleLoading(false));
+    }
   };
 
   const handleInfiniteScroll = debounce(() => {
@@ -28,8 +39,10 @@ const Home = () => {
         window.innerHeight + document.documentElement.scrollTop + 1 >=
         document.documentElement.scrollHeight
       ) {
-        dispatch(appActions.updatePage(pageRef.current + 1));
-        dispatch(appActions.toggleLoading(true));
+        if (!isLoading) {
+          dispatch(appActions.updatePage(pageRef.current + 1));
+          dispatch(appActions.toggleLoading(true));
+        }
       }
     } catch (error) {
       console.log("error :>> ", error);

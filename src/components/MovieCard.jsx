@@ -19,7 +19,7 @@ const MovieCard = ({ myData }) => {
             src={postersArray[randomNumber()]}
             alt="Poster"
             style={{
-              filter: isImageLoaded ? "none" : "blur(10px)",
+              filter: isImageLoaded ? "none" : "blur(20px)",
               transition: "filter 0.5s ease",
             }}
             onLoad={handleImageLoad}
