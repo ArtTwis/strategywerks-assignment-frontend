@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/strategywerks-assignment-frontend/static/css/main.ec7e7acf.css",
+    "main.js": "/strategywerks-assignment-frontend/static/js/main.660de5f0.js",
+    "static/media/poster10.jpg": "/strategywerks-assignment-frontend/static/media/poster10.ee2f238607481c5d1d25.jpg",
+    "static/media/poster8.jpg": "/strategywerks-assignment-frontend/static/media/poster8.8869c30b4927931fe753.jpg",
+    "static/media/poster4.jpg": "/strategywerks-assignment-frontend/static/media/poster4.640a285db197451cfb4b.jpg",
+    "static/media/poster7.jpg": "/strategywerks-assignment-frontend/static/media/poster7.a207b92e07394c409ed0.jpg",
+    "static/media/poster2.jpg": "/strategywerks-assignment-frontend/static/media/poster2.af4ff8ff73df3fce71b0.jpg",
+    "static/media/poster1.jpg": "/strategywerks-assignment-frontend/static/media/poster1.6b2c332e6ad8930551d1.jpg",
+    "static/media/poster6.jpg": "/strategywerks-assignment-frontend/static/media/poster6.bfe0be0086ddf920e3bc.jpg",
+    "static/media/poster3.jpg": "/strategywerks-assignment-frontend/static/media/poster3.313df13da9cbe0fe0567.jpg",
+    "static/media/poster5.jpg": "/strategywerks-assignment-frontend/static/media/poster5.313df13da9cbe0fe0567.jpg",
+    "static/media/poster9.jpg": "/strategywerks-assignment-frontend/static/media/poster9.1ca4b7ee5467fac5d04b.jpg",
+    "index.html": "/strategywerks-assignment-frontend/index.html",
+    "main.ec7e7acf.css.map": "/strategywerks-assignment-frontend/static/css/main.ec7e7acf.css.map",
+    "main.660de5f0.js.map": "/strategywerks-assignment-frontend/static/js/main.660de5f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec7e7acf.css",
+    "static/js/main.660de5f0.js"
+  ]
+}
